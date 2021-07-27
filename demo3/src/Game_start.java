@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Game_start {
+public class Game_start {
+
 }
