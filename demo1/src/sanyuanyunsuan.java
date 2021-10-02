@@ -1,4 +1,4 @@
-package demo1.src;
+
 
 public class sanyuanyunsuan {
     public int sanyuan(int x, int y) {

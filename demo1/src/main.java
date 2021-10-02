@@ -1,4 +1,4 @@
-package demo1.src;
+
 
 public class main {
     public static void main(String[] args){
