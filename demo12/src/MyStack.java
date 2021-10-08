@@ -11,46 +11,160 @@ public class MyStack {
         System.out.println(S.isEmpty());
         S.print();
 
-        S.push(ani1);
+        try {
+            S.push(ani1);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
 
-        S.push(ani2);
+        try {
+            S.push(ani2);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
 
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
-        S.push(animal);
+        try {
+            S.push(animal);
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
 
-        S.pop();
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
 
-        S.pop();
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
 
-        S.pop();
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
 
-        S.pop();
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
         System.out.println(S.isEmpty());
         S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+        try {
+            S.pop();
+        } catch (StackOverFlowException e) {
+            e.printStackTrace();
+        }
+        System.out.println(S.isEmpty());
+        S.print();
+
+
 
         System.out.println(S.index);
     }

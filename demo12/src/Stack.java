@@ -31,24 +31,24 @@ public class Stack {
     /*
         pop method
      */
-    public void pop(){
+    public void pop() throws StackOverFlowException {
         if(index>0) {
             this.ob[index - 1] = null;
             index--;
         }else {
-            System.out.println("No more elements");
+            throw new StackOverFlowException("No more elements");
         }
     }
 
     /*
         push method
      */
-    public void push(Object ob){
+    public void push(Object ob) throws StackOverFlowException {
         if(index<=10){
             this.ob[index] = ob;
             index++;
         }else{
-            System.out.println("Out of range!");
+            throw new StackOverFlowException("Stack over flow");
         }
     }
 
